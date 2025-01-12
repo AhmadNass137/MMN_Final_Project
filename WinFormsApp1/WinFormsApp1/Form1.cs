@@ -622,8 +622,8 @@ namespace WinFormsApp1
                 }
                 pictureBox4.Image = picked_color_bmp;
                 this.Cursor = Cursors.Default;
+                mode = 0;
             }
-            mode = 0;
         }
 
         private void rectangleToolStripMenuItem2_Click(object sender, EventArgs e)
